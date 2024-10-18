@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate API Key</title>
+</head>
+<body>
+
+<h2>Generate API Key</h2>
+
+<form id="apiKeyForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    <button type="submit">Generate API Key</button>
+</form>
+
+<script>
+document.getElementById('apiKeyForm').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value;
+
+    try {
+        const response = await fetch('http://localhost:5219/api/apikey/generate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email })
+        });
+
+        if (!response.ok) {
+            const data = await response.json();
+            alert(`Error: ${data.message}`);
+        }
+
+        if (response.ok) {
+            const data = await response.json();
+            alert(`API Key: ${data.ApiKey}`);
+        }
+
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Error generating API key: ' + error.message);
+    }
+});
+</script>
+
+</body>
+</html>

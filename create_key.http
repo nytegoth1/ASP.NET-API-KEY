@@ -1,0 +1,6 @@
+@create_key_HostAddress = http://localhost:5219
+
+GET {{create_key_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
