@@ -12,7 +12,7 @@ When the correct API key is provided (Only accesible with the key), I then ouput
 Afterward I create a project in VUE.js where I call the CF endpoint, display the data with a searchable feature.<br>
 This code could also be expanded on directly in ASP.NET and be self contained.<br> <br>
 Any questions feel fre to email me at <veighlyn@yahoo.com>.
-<br> <br>
+<br>
 
 ## INSTALLATION
 <br>
