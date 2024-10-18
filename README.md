@@ -1,5 +1,6 @@
 <h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" width="80" height="80">
 <br>API EXAMPLE<br></h1>
+## ASP.NET CORE - GENERATE API KEY<br>
 
 ### NOTES
 
@@ -10,7 +11,3 @@ Afterward I create a project in VUE.js where I call the CF endpoint, display the
 This code could also be expanded on directly in ASP.NET and be self contained.<br> <br>
 Any questions feel fre to email me at <veighlyn@yahoo.com>.
 
-# API EXAMPLE / USING  DOTNET-CORE
-
-
-# GENERATE API KEY
