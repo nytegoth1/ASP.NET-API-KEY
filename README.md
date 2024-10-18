@@ -7,7 +7,7 @@ ASP.NET CORE - GENERATE API KEY</h1>
 
 This is minimal code. The purpose of this code is to Generate an API key, and store it in a DB.<br>
 For this code I used MySql. Feel free to alter the sql to use in another DB.<br>
-I for testing purposes used this code, and created a server side enpoint in CF.<br>
+I, for testing purposes used this code, and created a server side enpoint in CF.<br>
 When the correct API key is provided (Only accesible with the key), I then ouput a JSON string.<br>
 Afterward I create a project in VUE.js where I call the CF endpoint, display the data with a searchable feature.<br>
 This code could also be expanded on directly in ASP.NET and be self contained.<br> <br>
