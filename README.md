@@ -18,5 +18,6 @@ Any questions feel fre to email me at <veighlyn@yahoo.com>.
 <br>
 1. Download source<br>
 2. Use the apikeydb_apikeys.sql<br>
-2. In root directory / Command prompt: dotnet run <br>
+3. In root directory / Command prompt: dotnet run <br>
+4. To test run the provided getkey.html
 
