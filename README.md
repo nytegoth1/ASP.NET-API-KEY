@@ -16,4 +16,5 @@ Any questions feel fre to email me at <veighlyn@yahoo.com>.
 ## INSTALLATION
 <br>
 1. Download source
+2. In root directory / Command prompt: dotnet run <br>
 
